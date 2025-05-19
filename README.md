@@ -73,8 +73,8 @@ text
 
 ### Run All Tests
 
-From the project root, run:
-mvn clean test
+- From the project root, run:
+- mvn clean test
 
 
 
