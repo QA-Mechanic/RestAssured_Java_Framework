@@ -1,0 +1,4 @@
+com\api\stepdefinitions\EdgeCaseSteps.class
+com\api\runners\TestRunner.class
+com\api\stepdefinitions\ObjectSteps.class
+com\api\stepdefinitions\Hooks.class

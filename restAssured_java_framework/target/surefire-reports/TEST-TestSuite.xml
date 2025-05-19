@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.021" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\codebase\restAssured_java_framework\target\test-classes;D:\codebase\restAssured_java_framework\target\classes;C:\Users\ankur\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ankur\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ankur\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ankur\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ankur\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ankur\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ankur\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ankur\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ankur\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ankur\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ankur\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ankur\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ankur\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ankur\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ankur\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\ankur\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ankur\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\ankur\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\ankur\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-testng\7.11.1\cucumber-testng-7.11.1.jar;C:\Users\ankur\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ankur\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ankur\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ankur\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ankur\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\ankur\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\ankur\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\ankur\AppData\Local\Temp\surefire11170018505388388097\surefirebooter-20250519021831262_3.jar C:\Users\ankur\AppData\Local\Temp\surefire11170018505388388097 2025-05-19T02-18-31_148-jvmRun1 surefire-20250519021831262_1tmp surefire_0-20250519021831262_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\codebase\restAssured_java_framework\target\test-classes;D:\codebase\restAssured_java_framework\target\classes;C:\Users\ankur\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ankur\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ankur\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ankur\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ankur\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ankur\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ankur\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ankur\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ankur\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ankur\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ankur\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ankur\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ankur\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ankur\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ankur\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\ankur\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ankur\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\ankur\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\ankur\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\ankur\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ankur\.m2\repository\io\cucumber\cucumber-testng\7.11.1\cucumber-testng-7.11.1.jar;C:\Users\ankur\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ankur\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ankur\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ankur\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ankur\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\ankur\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\ankur\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ankur"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\codebase\restAssured_java_framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ankur\AppData\Local\Temp\surefire11170018505388388097\surefirebooter-20250519021831262_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
+    <property name="user.name" value="ankur"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ankur\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ankur\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="D:\codebase\restAssured_java_framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\TestAutomation\gradle-5.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\TestAutomation\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-17\bin;C:\Users\ankur\AppData\Local\Android\Sdk\tools;C:\Users\ankur\AppData\Local\Android\Sdk\platform-tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Users\ankur\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ankur\AppData\Local\Programs\Python\Python312\;C:\Users\ankur\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.5\bin;;C:\Users\ankur\AppData\Local\Microsoft\WindowsApps;C:\Users\ankur\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\bin;;C:\Users\ankur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ankur\AppData\Local\Android\Sdk\platforms-tools;C:\Users\ankur\AppData\Local\Android\Sdk\tools;C:\Users\ankur\AppData\Roaming\npm;C:\Users\ankur\AppData\Local\Programs\Ollama;C:\Program Files\Java\jdk-17\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Handling invalid item creation&quot;, &quot;Edge Cases for RESTful API Testing&quot;](1)" classname="com.api.runners.TestRunner" time="2.212">
+    <system-out><![CDATA[
+@Test
+Scenario: Handling invalid item creation &amp#27;[90m# src/test/resources/features/EdgeCases.feature:8&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Apple MacBook Pro 16"11,
+    "data": {
+        "year": 2019,
+        "price": "1849.99",
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+HTTP/1.1 400 Bad Request
+Date: Mon, 19 May 2025 01:18:34 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=D4cujc37%2BDE6nemwgqTXmocVgBjEpcJRNhBl%2B1YoykeB0ZKSe%2B%2FBuhYJb74ScMC%2FDwi0ibWrawis8GzDG5nlL8Np9hAf6cFtWQ3%2BComUVAD2Q0s%3D"}]}
+CF-RAY: 941fc2d76b57129d-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "error": "400 Bad Request. If you are trying to create or update the data, potential issue is that you are sending incorrect body json or it is missing at all."
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send an invalid JSON payload&amp#27;[0m    &amp#27;[90m# com.api.stepdefinitions.EdgeCaseSteps.sendInvalidJsonPayload()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m response code is returned&amp#27;[0m   &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyResponseCode(int)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Get non-existent item&quot;, &quot;Edge Cases for RESTful API Testing&quot;](2)" classname="com.api.runners.TestRunner" time="0.41">
+    <system-out><![CDATA[
+@Test
+Scenario: Get non-existent item                         &amp#27;[90m# src/test/resources/features/EdgeCases.feature:13&amp#27;[0m
+HTTP/1.1 404 Not Found
+Date: Mon, 19 May 2025 01:18:35 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qspJYsw3ckUCtdf3ntIoa8h6JWp%2BZRn9LnnsHZIoCCFeGfy4I87k1Mjxx4clAVNMwrjzVaWOoudiccQP12JumBUxk1fQ1kANe3R49N4FJ6P9eDg%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc2dcabdf87d9-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "error": "Oject with id=nonexistent123 was not found."
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI request to get the item by ID &amp#27;[0m&amp#27;[32m&amp#27;[1m"nonexistent123"&amp#27;[0m &amp#27;[90m# com.api.stepdefinitions.EdgeCaseSteps.getItemBySpecificId(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m&amp#27;[32m response code is returned&amp#27;[0m                  &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyResponseCode(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create various types of items&quot;, &quot;Edge Cases for RESTful API Testing&quot;](3)" classname="com.api.runners.TestRunner" time="1.412">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: Create various types of items &amp#27;[90m# src/test/resources/features/EdgeCases.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m"iPhone 14"&amp#27;[0m&amp#27;[32m item is created&amp#27;[0m           &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.setItemName(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhas a price of &amp#27;[0m&amp#27;[32m&amp#27;[1m"999.99"&amp#27;[0m                   &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.setPrice(java.lang.String)&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "iPhone 14",
+    "dataMap": {
+        "price": 999.99
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:35 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Qo3xg35ATrQrVxsWZY0Hd902u9lGrkH1g8%2FBF5e%2FHMO5Y%2B79bproEIOvVugqAovuq3%2FgutHpo046MpEt1rGILDXDnuQv0u0bAkLKLfZmh%2FaaOHo%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc2e0db1d417f-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff808181932badb60196e61f09443a6b",
+    "name": "iPhone 14",
+    "createdAt": "2025-05-19T01:18:35.844+00:00",
+    "data": null
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe request to add the item is made&amp#27;[0m      &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.addItem()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m response code is returned&amp#27;[0m          &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyResponseCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item details are stored correctly&amp#27;[0m     &amp#27;[90m# com.api.stepdefinitions.EdgeCaseSteps.verifyItemStorage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create various types of items&quot;, &quot;Edge Cases for RESTful API Testing&quot;](4)" classname="com.api.runners.TestRunner" time="0.434">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: Create various types of items &amp#27;[90m# src/test/resources/features/EdgeCases.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m"Samsung Galaxy S23"&amp#27;[0m&amp#27;[32m item is created&amp#27;[0m  &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.setItemName(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhas a price of &amp#27;[0m&amp#27;[32m&amp#27;[1m"899.99"&amp#27;[0m                   &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.setPrice(java.lang.String)&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Samsung Galaxy S23",
+    "dataMap": {
+        "price": 899.99
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Iwqhgb4D0rOZYbMW8qC%2BqYMScw1EdqKz8KkVCki3B6IOWXd0fOY0oNUSqkyEhjoW8o%2B3%2FfiAXBfCvmK5kAJ5Fv3C5pWXhQuLgbl5M66XsAkctlM%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc2e7be97b3b3-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff808181932badb60196e61f0d423a6d",
+    "name": "Samsung Galaxy S23",
+    "createdAt": "2025-05-19T01:18:36.866+00:00",
+    "data": null
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe request to add the item is made&amp#27;[0m      &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.addItem()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m response code is returned&amp#27;[0m          &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyResponseCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item details are stored correctly&amp#27;[0m     &amp#27;[90m# com.api.stepdefinitions.EdgeCaseSteps.verifyItemStorage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create various types of items&quot;, &quot;Edge Cases for RESTful API Testing&quot;](5)" classname="com.api.runners.TestRunner" time="0.512">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: Create various types of items &amp#27;[90m# src/test/resources/features/EdgeCases.feature:29&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m"Google Pixel 7"&amp#27;[0m&amp#27;[32m item is created&amp#27;[0m      &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.setItemName(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhas a price of &amp#27;[0m&amp#27;[32m&amp#27;[1m"599.99"&amp#27;[0m                   &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.setPrice(java.lang.String)&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Google Pixel 7",
+    "dataMap": {
+        "price": 599.99
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=FP4DcAUaj6%2B%2Bp6kgD7JHgK5f5xuj6eOVaqLUlYhB9Z3ntgQg1kUZdJjrysWNHKG5aTdvL6sGhBaauWM%2FMEwNLCVAb1yfn9zmjPpNASNPpjs%2BvJk%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc2ea8d0b9848-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff808181932badb60196e61f0f523a6e",
+    "name": "Google Pixel 7",
+    "createdAt": "2025-05-19T01:18:37.394+00:00",
+    "data": null
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe request to add the item is made&amp#27;[0m      &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.addItem()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m response code is returned&amp#27;[0m          &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyResponseCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item details are stored correctly&amp#27;[0m     &amp#27;[90m# com.api.stepdefinitions.EdgeCaseSteps.verifyItemStorage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify an item can be created&quot;, &quot;Object Management in RESTful API&quot;](6)" classname="com.api.runners.TestRunner" time="0.823">
+    <system-out><![CDATA[
+@Test
+Scenario: Verify an item can be created          &amp#27;[90m# src/test/resources/features/ObjectManagement.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m"Apple MacBook Pro 16"&amp#27;[0m&amp#27;[32m item is created&amp#27;[0m &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.setItemName(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mis a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Intel Core i9"&amp#27;[0m&amp#27;[32m CPU model&amp#27;[0m             &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.setCpuModel(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhas a price of &amp#27;[0m&amp#27;[32m&amp#27;[1m"1849.99"&amp#27;[0m                   &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.setPrice(java.lang.String)&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Apple MacBook Pro 16",
+    "dataMap": {
+        "price": 1849.99,
+        "cpu": "Intel Core i9"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:38 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=n4gmd%2BilGHravlg3tpAFtz5NpBwLGJ%2BRYGYtRnmuT2HvPCU%2Bh1QTOpPGmo8naRhWMXp5RWAVzkAKBCOQaT6K%2F%2B3F5pi5McGBI2YbaAuhgMhaCnc%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc2edaac7bef6-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff808181932badb60196e61f12873a6f",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-05-19T01:18:38.215+00:00",
+    "data": null
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe request to add the item is made&amp#27;[0m       &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.addItem()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m response code is returned&amp#27;[0m           &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyResponseCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m"Apple MacBook Pro 16"&amp#27;[0m&amp#27;[32m is created&amp#27;[0m        &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyItemName(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify an ability to return an item&quot;, &quot;Object Management in RESTful API&quot;](7)" classname="com.api.runners.TestRunner" time="0.907">
+    <system-out><![CDATA[
+@Test
+Scenario: Verify an ability to return an item    &amp#27;[90m# src/test/resources/features/ObjectManagement.feature:17&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Item",
+    "dataMap": {
+        "price": 999.99,
+        "description": "Test item for verification"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:38 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jINgdOgOc9SDuDwc9XiPWR6Bo6XYPKrMtmppMDoxc%2FwhRq08gW3UJXP0VuzlYw2GfkSGoRNmPVuRnws2qvfy8cLe1xnOLtXgLotscLefbZlXpfU%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc2f2ae176382-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff808181932badb60196e61f147f3a70",
+    "name": "Test Item",
+    "createdAt": "2025-05-19T01:18:38.719+00:00",
+    "data": null
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man item exists in the system&amp#27;[0m             &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.createAnItem()&amp#27;[0m
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0cITe86Kc1fBgPH9VsQy41KiWTci5pvbxeVvz03S2IG2PYD%2BknfsOOUUYUOFJsRALgQC1SUlkhdRWjTdFdNQu%2B1P4CDhHrWi9715%2BZ4TnnhBHQU%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc2f57bf56536-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff808181932badb60196e61f147f3a70",
+    "name": "Test Item",
+    "data": null
+}
+Response Print from by its id steepio.restassured.internal.RestAssuredResponseImpl@58e02359
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI request to get the item by its ID&amp#27;[0m       &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.getItemById()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m response code is returned&amp#27;[0m           &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyResponseCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item details match the expected values&amp#27;[0m &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyItemDetails()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Ability to list multiple items&quot;, &quot;Object Management in RESTful API&quot;](8)" classname="com.api.runners.TestRunner" time="2.043">
+    <system-out><![CDATA[
+@Test
+Scenario: Ability to list multiple items      &amp#27;[90m# src/test/resources/features/ObjectManagement.feature:24&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Item 1",
+    "dataMap": {
+        "index": 1
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=sR2OAgVEAs21xTHOrxLClYFy2GAVmTlTF%2B0%2FKlCXOmL84MVjeyiQurVJhn8orX%2BOIl1NEZrKm6HnWIBjqQDoEE2JlfXyR597RVytc3UVVizQd1A%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc2f85eaf9586-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff808181932badb60196e61f17f53a71",
+    "name": "Test Item 1",
+    "createdAt": "2025-05-19T01:18:39.605+00:00",
+    "data": null
+}
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Item 2",
+    "dataMap": {
+        "index": 2
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:40 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LN5QDHjlMzqou7zf7yTuvv%2FI12xinc4ebaw7SzCqTfNQUgyZS8oJ2nmt%2FmFg0Q%2Fq9%2FBKX4sggmRrfHjGO9NZ31HUuQ%2BKzErXNgNM1QBHHk39pBo%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc2fb08c89431-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff808181932badb60196e61f19b23a72",
+    "name": "Test Item 2",
+    "createdAt": "2025-05-19T01:18:40.050+00:00",
+    "data": null
+}
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Item 3",
+    "dataMap": {
+        "index": 3
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:40 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=H4225lIm9ESwTHW%2FEqXh%2FUnqpglDRus2hF7i9UoQKtZPnkt4lsT5MaqDLWK5EK%2BK5Ffss6vKnlAw739Ydf%2FlGckZao3Fxg%2BBnzShKlvwutWhcw0%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc2fdeb0a873a-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff808181932badb60196e61f1b6e3a73",
+    "name": "Test Item 3",
+    "createdAt": "2025-05-19T01:18:40.494+00:00",
+    "data": null
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mmultiple items exist in the system&amp#27;[0m    &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.createMultipleItems()&amp#27;[0m
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:41 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=M0z7tAY3bpK2Pa94gAcZ7EE9182HFcnSIxQjcj62sDHJlmHZnp6peBdHRZB5L%2FHAuOGJEMwt8w5J1aSolqGW2HbcWk2rYc%2F0elxZSTQsfK2uda0%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc3009e3d7876-LHR
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": "ff808181932badb60196e61f17f53a71",
+        "name": "Test Item 1",
+        "data": null
+    },
+    {
+        "id": "ff808181932badb60196e61f19b23a72",
+        "name": "Test Item 2",
+        "data": null
+    },
+    {
+        "id": "ff808181932badb60196e61f1b6e3a73",
+        "name": "Test Item 3",
+        "data": null
+    }
+]
+Response JSON: [
+    {
+        "id": "ff808181932badb60196e61f17f53a71",
+        "name": "Test Item 1",
+        "data": null
+    },
+    {
+        "id": "ff808181932badb60196e61f19b23a72",
+        "name": "Test Item 2",
+        "data": null
+    },
+    {
+        "id": "ff808181932badb60196e61f1b6e3a73",
+        "name": "Test Item 3",
+        "data": null
+    }
+]
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI request to list all objects by ids&amp#27;[0m   &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.getMultipleItems()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m response code is returned&amp#27;[0m        &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyResponseCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response contains all created items&amp#27;[0m &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyAllItems()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify an ability to delete an item&quot;, &quot;Object Management in RESTful API&quot;](9)" classname="com.api.runners.TestRunner" time="1.182">
+    <system-out><![CDATA[
+@Test
+Scenario: Verify an ability to delete an item &amp#27;[90m# src/test/resources/features/ObjectManagement.feature:31&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Item",
+    "dataMap": {
+        "price": 999.99,
+        "description": "Test item for verification"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:41 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4T8w%2FhyWNno9P6MRRvquC95r1uX2wzZPzwlwH5dpeu48xv3rcAsU%2FlC73w%2BuIcFs98ip0wWhBTng0fZPz1X11lso4u%2BZWcMOceV7UhmmIKDON2g%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc3052a0bd05c-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff808181932badb60196e61f1fe53a74",
+    "name": "Test Item",
+    "createdAt": "2025-05-19T01:18:41.637+00:00",
+    "data": null
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man item exists in the system&amp#27;[0m          &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.createAnItem()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI request to delete the item by its ID&amp#27;[0m &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.deleteItem()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m response code is returned&amp#27;[0m        &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyResponseCode(int)&amp#27;[0m
+HTTP/1.1 404 Not Found
+Date: Mon, 19 May 2025 01:18:42 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=H720ZG%2FNrYxHfAHeaEuiqmrAxqa1wZkrFQPqxX3OCGBDb8Xtk8z1ohjrHZ6CdwZ29Pe8RAR6YCE5SX01EgZYJiWcLPiXYxUZ43lfSrGwxluD"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc30a4a33ef31-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "error": "Oject with id=ff808181932badb60196e61f1fe53a74 was not found."
+}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item is successfully deleted&amp#27;[0m        &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyItemDeleted()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Update an existing item&quot;, &quot;Object Management in RESTful API&quot;](10)" classname="com.api.runners.TestRunner" time="0.843">
+    <system-out><![CDATA[
+@Test
+Scenario: Update an existing item                         &amp#27;[90m# src/test/resources/features/ObjectManagement.feature:38&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Item",
+    "dataMap": {
+        "price": 999.99,
+        "description": "Test item for verification"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 May 2025 01:18:42 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Cf-Cache-Status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HFTVGZ5snBQcwgn15KmHKVVu8lbyf4WNj%2F44TOY4tK0saUrhVfsPl6pmXV7X5UdrJp228OPxKqDnu0GG91UlnKtmrJQMESQGC0ny1S2aHgVv1ug%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 941fc30c9ca557a1-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff808181932badb60196e61f248d3a75",
+    "name": "Test Item",
+    "createdAt": "2025-05-19T01:18:42.829+00:00",
+    "data": null
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man item exists in the system&amp#27;[0m                      &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.createAnItem()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI update the item name to &amp#27;[0m&amp#27;[32m&amp#27;[1m"MacBook Pro 16 Updated"&amp#27;[0m &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.updateItemName(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m response code is returned&amp#27;[0m                    &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyResponseCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item name is updated successfully&amp#27;[0m               &amp#27;[90m# com.api.stepdefinitions.ObjectSteps.verifyNameUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
