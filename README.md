@@ -27,7 +27,6 @@ It demonstrates best practices for REST API testing, including scenario-driven d
 - Robust assertions with JSONPath
 - Edge case and negative scenario testing
 - Clean code practices and hooks for setup/cleanup
-- Parallel execution support
 - Beautiful HTML reports with ExtentReports
 
 ---
